@@ -2,6 +2,7 @@ def join_ingredients(src)
   array = []
   row_index = 0
   while row_index < src.count do
+    array << ""
 end
 
 def find_greater_pair(src)
