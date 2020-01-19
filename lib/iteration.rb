@@ -10,6 +10,7 @@ end
 
 def find_greater_pair(src)
   row_index = 0
+  array = []
   while row_index < src.count do 
     array << src[row_index].max()
     row_index += 1
